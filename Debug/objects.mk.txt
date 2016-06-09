@@ -1,0 +1,8 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+USER_OBJS :=
+
+LIBS := -llibc.a -l"C:/ti/OMAPL138_StarterWare_1_10_04_01/binary/armv5/cgt_ccs/omapl138/lcdkOMAPL138/platform/Debug/platform.lib" -l"C:/ti/OMAPL138_StarterWare_1_10_04_01/binary/armv5/cgt_ccs/omapl138/system_config/Debug/system_config.lib" -l"C:/ti/OMAPL138_StarterWare_1_10_04_01/binary/armv5/cgt_ccs/utils/Debug/utils.lib" -l"C:/ti/OMAPL138_StarterWare_1_10_04_01/binary/armv5/cgt_ccs/omapl138/drivers/Debug/drivers.lib" -l"C:/ti/OMAPL138_StarterWare_1_10_04_01/binary/armv5/gcc/omapl138/drivers/Release/libdrivers.a" -l"C:/ti/OMAPL138_StarterWare_1_10_04_01/binary/armv5/gcc/omapl138/lcdkOMAPL138/platform/Release/libplatform.a"
+

@@ -1,0 +1,30 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../StartWare/cpu.c \
+../StartWare/interrupt.c 
+
+OBJS += \
+./StartWare/cpu.obj \
+./StartWare/interrupt.obj 
+
+C_DEPS += \
+./StartWare/cpu.d \
+./StartWare/interrupt.d 
+
+C_DEPS__QUOTED += \
+"StartWare\cpu.d" \
+"StartWare\interrupt.d" 
+
+OBJS__QUOTED += \
+"StartWare\cpu.obj" \
+"StartWare\interrupt.obj" 
+
+C_SRCS__QUOTED += \
+"../StartWare/cpu.c" \
+"../StartWare/interrupt.c" 
+
+

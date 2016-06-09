@@ -1,0 +1,50 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+ASM_SRCS += \
+../uCOS-II/Ports/os_cpu_a.asm 
+
+C_SRCS += \
+../uCOS-II/Ports/os_cpu_c.c \
+../uCOS-II/Ports/os_dbg.c \
+../uCOS-II/Ports/os_dcc.c 
+
+OBJS += \
+./uCOS-II/Ports/os_cpu_a.obj \
+./uCOS-II/Ports/os_cpu_c.obj \
+./uCOS-II/Ports/os_dbg.obj \
+./uCOS-II/Ports/os_dcc.obj 
+
+ASM_DEPS += \
+./uCOS-II/Ports/os_cpu_a.d 
+
+C_DEPS += \
+./uCOS-II/Ports/os_cpu_c.d \
+./uCOS-II/Ports/os_dbg.d \
+./uCOS-II/Ports/os_dcc.d 
+
+C_DEPS__QUOTED += \
+"uCOS-II\Ports\os_cpu_c.d" \
+"uCOS-II\Ports\os_dbg.d" \
+"uCOS-II\Ports\os_dcc.d" 
+
+OBJS__QUOTED += \
+"uCOS-II\Ports\os_cpu_a.obj" \
+"uCOS-II\Ports\os_cpu_c.obj" \
+"uCOS-II\Ports\os_dbg.obj" \
+"uCOS-II\Ports\os_dcc.obj" 
+
+ASM_DEPS__QUOTED += \
+"uCOS-II\Ports\os_cpu_a.d" 
+
+ASM_SRCS__QUOTED += \
+"../uCOS-II/Ports/os_cpu_a.asm" 
+
+C_SRCS__QUOTED += \
+"../uCOS-II/Ports/os_cpu_c.c" \
+"../uCOS-II/Ports/os_dbg.c" \
+"../uCOS-II/Ports/os_dcc.c" 
+
+

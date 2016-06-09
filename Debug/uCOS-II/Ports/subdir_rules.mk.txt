@@ -1,0 +1,34 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Each subdirectory must supply rules for building sources it contributes
+uCOS-II/Ports/os_cpu_a.obj: ../uCOS-II/Ports/os_cpu_a.asm $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.12.1.LTS/bin/armcl" -mv5e --code_state=32 -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.12.1.LTS/include" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/ipclite/include" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/nandlib/include" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/grlib/include" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/usblib/include" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/BSP" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/App" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/uC-CPU" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/uC-LIB" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/uCOS-II/Ports" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/uCOS-II/Source" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/include/armv5/omapl138" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/include" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/include/armv5" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/include/hw" -g --define=omapl138 --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="uCOS-II/Ports/os_cpu_a.d" --obj_directory="uCOS-II/Ports" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+uCOS-II/Ports/os_cpu_c.obj: ../uCOS-II/Ports/os_cpu_c.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.12.1.LTS/bin/armcl" -mv5e --code_state=32 -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.12.1.LTS/include" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/ipclite/include" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/nandlib/include" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/grlib/include" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/usblib/include" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/BSP" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/App" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/uC-CPU" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/uC-LIB" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/uCOS-II/Ports" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/uCOS-II/Source" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/include/armv5/omapl138" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/include" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/include/armv5" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/include/hw" -g --define=omapl138 --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="uCOS-II/Ports/os_cpu_c.d" --obj_directory="uCOS-II/Ports" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+uCOS-II/Ports/os_dbg.obj: ../uCOS-II/Ports/os_dbg.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.12.1.LTS/bin/armcl" -mv5e --code_state=32 -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.12.1.LTS/include" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/ipclite/include" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/nandlib/include" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/grlib/include" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/usblib/include" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/BSP" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/App" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/uC-CPU" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/uC-LIB" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/uCOS-II/Ports" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/uCOS-II/Source" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/include/armv5/omapl138" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/include" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/include/armv5" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/include/hw" -g --define=omapl138 --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="uCOS-II/Ports/os_dbg.d" --obj_directory="uCOS-II/Ports" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+uCOS-II/Ports/os_dcc.obj: ../uCOS-II/Ports/os_dcc.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.12.1.LTS/bin/armcl" -mv5e --code_state=32 -me --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-arm_15.12.1.LTS/include" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/ipclite/include" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/nandlib/include" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/grlib/include" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/usblib/include" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/BSP" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/App" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/uC-CPU" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/uC-LIB" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/uCOS-II/Ports" --include_path="D:/Working zone/OMAP L138/porting uCOS/Rework/ARM_GPIO/uCOS-II/Source" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/include/armv5/omapl138" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/include" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/include/armv5" --include_path="C:/ti/OMAPL138_StarterWare_1_10_04_01/include/hw" -g --define=omapl138 --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="uCOS-II/Ports/os_dcc.d" --obj_directory="uCOS-II/Ports" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

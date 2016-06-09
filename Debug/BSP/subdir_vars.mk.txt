@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../BSP/bsp_timer.c 
+
+OBJS += \
+./BSP/bsp_timer.obj 
+
+C_DEPS += \
+./BSP/bsp_timer.d 
+
+C_DEPS__QUOTED += \
+"BSP\bsp_timer.d" 
+
+OBJS__QUOTED += \
+"BSP\bsp_timer.obj" 
+
+C_SRCS__QUOTED += \
+"../BSP/bsp_timer.c" 
+
+

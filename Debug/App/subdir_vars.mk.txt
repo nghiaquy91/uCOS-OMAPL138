@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../App/main.c 
+
+OBJS += \
+./App/main.obj 
+
+C_DEPS += \
+./App/main.d 
+
+C_DEPS__QUOTED += \
+"App\main.d" 
+
+OBJS__QUOTED += \
+"App\main.obj" 
+
+C_SRCS__QUOTED += \
+"../App/main.c" 
+
+
